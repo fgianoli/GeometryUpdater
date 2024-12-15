@@ -1,2 +1,2 @@
 # GeometryUpdater
-Replace geometries between layers
+This plugin allows users to replace the geometry of a selected feature in a target layer with the geometry of a selected feature from a source layer. The plugin: Accepts two layers as input: the Source Layer, from which the geometry is copied, and the Target Layer, where the geometry will be replaced. Requires that exactly one feature is selected in both layers. Replaces the geometry of the selected feature in the target layer while retaining its attributes. Outputs a new layer with the updated geometry for the target feature. Both layers must have the same geometry type for the tool to function correctly.
