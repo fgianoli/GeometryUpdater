@@ -1,0 +1,47 @@
+# This file contains metadata for your plugin.
+
+# This file should be included when you package your plugin.# Mandatory items:
+
+[general]
+name=GeometryReplacer
+qgisMinimumVersion=3.0
+description=replace Geometry
+version=0.1
+author=Federico Gianoli
+email=gianoli.federico@gmail.com
+
+about=This plugin allows users to replace the geometry of a selected feature in a target layer with the geometry of a selected feature from a source layer. The plugin: Accepts two layers as input: the Source Layer, from which the geometry is copied, and the Target Layer, where the geometry will be replaced. Requires that exactly one feature is selected in both layers. Replaces the geometry of the selected feature in the target layer while retaining its attributes. Outputs a new layer with the updated geometry for the target feature. Both layers must have the same geometry type for the tool to function correctly.
+
+tracker=http://bugs
+repository=http://repo
+# End of mandatory metadata
+
+# Recommended items:
+
+hasProcessingProvider=yes
+# Uncomment the following line and add your changelog:
+# changelog=
+
+# Tags are comma separated with spaces allowed
+tags=replace geometry, update geometry, vector
+
+homepage=http://homepage
+category=Analysis
+icon=icon.png
+# experimental flag
+experimental=False
+
+# deprecated flag (applies to the whole plugin, not just a single version)
+deprecated=False
+
+# Since QGIS 3.8, a comma separated list of plugins to be installed
+# (or upgraded) can be specified.
+# Check the documentation for more information.
+# plugin_dependencies=
+
+Category of the plugin: Raster, Vector, Database or Web
+# category=
+
+# If the plugin can run on QGIS Server.
+server=False
+
